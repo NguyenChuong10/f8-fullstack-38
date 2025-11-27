@@ -19,7 +19,7 @@ import Defaultlayout from './layout/defaultlayout'
 
 function App() {
   return (
-    <Router basename={import.meta.env.PROD ? "/f8-fullstack-day38/" : "/"} >
+    <Router basename={import.meta.env.PROD ? "/f8-fullstack-38/" : "/"} >
       <Navigator />
       <Routes >
         <Route path='/' element={<UpdateAvatar />}></Route>
