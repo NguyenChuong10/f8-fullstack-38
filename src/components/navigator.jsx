@@ -12,6 +12,7 @@ function Navigator(){
                         <li> <Link to="/NewTextinput">newTextinput</Link></li>
                         <li> <Link to="/TextInput">Textinput</Link></li>
                         <li> <Link to="/ReactMemo">RM</Link></li>
+                        <li> <Link to="/shoppingcart">Shoppingcart</Link></li>
                     </ul>
                 </nav>
             </header>
