@@ -1,5 +1,2 @@
-import { createContext } from "react";
-
-const CartContext = createContext(undefined);
-
-export default CartContext;
+export{ default as CartProvider} from './Provider';
+export{ default as CartContext} from './Context';
