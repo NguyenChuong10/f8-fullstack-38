@@ -2,7 +2,7 @@ import { useEffect, useMemo, useReducer } from "react";
 import PropTypes from "prop-types";
 
 
-import CartContext from ".";
+import CartContext from "./Context";
 import CartReducer from "@/pages/ShoppingCart/reducer";
 import { ADD_TO_CART, CART_STORAGE_KEY, CLEAR_CART, REMOVE_TO_CART, UPDATE_TO_CART } from "@/pages/ShoppingCart/const";
 
